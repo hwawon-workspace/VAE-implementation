@@ -1,0 +1,30 @@
+model:
+  name: 'VAE_MNIST'
+  input_height: 28
+  input_width: 28
+  color_channels: 1
+  latent_dim: 20
+  hidden_dims:
+    - 500
+    - 500
+
+data:
+  dataset: MNIST
+  data_path: data/MNIST
+
+training:
+  batch_size: 100
+  num_epochs: 10
+  learning_rate: 0.001
+  weight_decay: 1e-5
+  optimizer: Adam
+
+logging:
+  log_interval: 10
+  save_model: True
+  model_save_path: models/VAE_MNIST.pth
+
+evaluation:
+  evaluate_interval: 1
+  sample_size: 64
+

@@ -1,0 +1,15 @@
+data:
+  dataset: 'FASHION_MNIST'
+  batch_size: 64
+  val_split: 0.3
+
+model:
+  model: "VAE" #클래스명
+  latent_dim: 25
+  hidden_dims: [256, 128]
+  learning_rate: 0.0048
+  epochs: 10
+
+log:
+  model_save_dir: 'outputs/models/fashionmnist_vae.pth'
+  image_save_dir: 'outputs/image/'
