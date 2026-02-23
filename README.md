@@ -22,9 +22,11 @@ fc layer만으로 구성된 Baseline VAE 구현 후 Convolutional 구조 확장�
 ---
 
 ## 3. Results & Observed Issue
-![alt text](image.png)
+- MNIST 결과:  
+![alt text](image.png) 
+- fashion MNIST 결과:  
 ![alt text](image-1.png)
-Conv 구조 적용 후 fc 기반 모델과 비교해 reconstruction blur 현상이 발생하였습니다.
+- Conv 구조 적용 후 fc 기반 모델과 비교해 reconstruction blur 현상이 발생하였습니다.
 
 ---
 
