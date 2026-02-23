@@ -21,8 +21,10 @@ fc layer만으로 구성된 Baseline VAE 구현 후 Convolutional 구조 확장�
 
 ---
 
-## 3. Observed Issue
-Conv 구조 적용 후 reconstruction blur 현상이 발생하였습니다.
+## 3. Results & Observed Issue
+![alt text](image.png)
+![alt text](image-1.png)
+Conv 구조 적용 후 fc 기반 모델과 비교해 reconstruction blur 현상이 발생하였습니다.
 
 ---
 
